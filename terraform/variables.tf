@@ -3,14 +3,6 @@ variable "github_repo" {
   type        = string
 }
 
-# Vercel Provider Variables
-variable "vercel_api_token" {
-  description = "Vercel API token (from https://vercel.com/account/tokens). Can also be set via VERCEL_API_TOKEN environment variable."
-  type        = string
-  sensitive   = true
-  default     = ""
-}
-
 # Supabase Provider Variables
 variable "supabase_access_token" {
   description = "Supabase personal access token (from Account Settings > Access Tokens)"

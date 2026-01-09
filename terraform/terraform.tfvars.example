@@ -5,8 +5,8 @@ github_repo = "your-username/h8club"
 
 # Vercel Configuration
 # Get API token from: https://vercel.com/account/tokens
-# For Terraform Cloud: Set as workspace variable VERCEL_API_TOKEN (sensitive)
-# vercel_api_token = "your-vercel-api-token"
+# For Terraform Cloud: Set as workspace environment variable VERCEL_API_TOKEN (sensitive)
+# For local execution: export VERCEL_API_TOKEN=your_token
 
 # Supabase Configuration
 # Get access token from: https://supabase.com/dashboard/account/tokens
