@@ -1,0 +1,23 @@
+# Copy this file to terraform.tfvars and fill in your values
+# terraform.tfvars is in .gitignore and should not be committed
+
+github_repo = "your-username/h8club"
+
+# Vercel Configuration
+# Get API token from: https://vercel.com/account/tokens
+# For Terraform Cloud: Set as workspace variable VERCEL_API_TOKEN (sensitive)
+# vercel_api_token = "your-vercel-api-token"
+
+# Supabase Configuration
+# Get access token from: https://supabase.com/dashboard/account/tokens
+# Get organization ID from: https://supabase.com/dashboard/organizations
+supabase_access_token   = "your-supabase-access-token"
+supabase_organization_id = "your-organization-id"
+supabase_project_name    = "h8club"
+supabase_region          = "us-east-1"  # Options: us-east-1, us-west-1, eu-west-1, ap-southeast-1
+supabase_database_password = "your-secure-password-min-8-chars"
+
+# Optional: If you want to use an existing Supabase project instead of creating a new one
+# Leave these empty to use the project created by Terraform
+# supabase_url     = ""
+# supabase_anon_key = ""
